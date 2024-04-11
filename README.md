@@ -22,7 +22,7 @@ This Python script generates random 4-letter pronounceable usernames. You can cu
     ```
 3. **Run the script**:
     ```
-    python username_generator.py
+    python usernamegen.py
     ```
 
 ## Dependencies
