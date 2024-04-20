@@ -1,41 +1,63 @@
-
-
----
-
 # Username Generator
 
-This Python script generates random 4-letter pronounceable usernames. You can customize whether certain letters are replaced with numbers.
+This is a simple username generator application built using the `customtkinter` library in Python. The application allows users to generate random, pronounceable usernames with optional length, capital letters, and numbers.
 
-## How It Works
+## Features
 
-1. The script selects consonants and vowels to create a pronounceable username.
-2. The first two letters are a consonant followed by a vowel.
-3. The last two letters can be either consonant-consonant or vowel-consonant.
-4. Optionally, certain letters (like "a," "e," "i," "o," or "b") can be replaced with random numbers.
+- **Customizable Username Length**: Users can specify the desired length of the generated username.
+- **Include Capitals**: Users can choose to include capital letters in the generated username.
+- **Include Numbers**: Users can choose to include numbers in the generated username.
+- **Pronounceable Usernames**: The generated usernames are designed to be pronounceable, with alternating consonants and vowels.
+- **Copy to Clipboard**: The generated username can be easily copied to the clipboard with a single click.
 
 ## Usage
 
-1. **Install Python 3**.
-2. **Install the necessary libraries using pip**:
-    ```
-    pip install pyperclip
-    ```
-3. **Run the script**:
-    ```
-    python usernamegen.py
-    ```
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-username/username-generator.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd username-generator
+   ```
+3. Install the required dependencies:
+   ```
+   pip install customtkinter pyperclip
+   ```
+4. Run the Python script to launch the application:
+   ```
+   python username_generator.py
+   ```
+5. Adjust the desired settings in the customization frame:
+   - **Username Length**: Enter the desired length of the generated username.
+   - **Include Capitals**: Check the box to include capital letters in the generated username.
+   - **Include Numbers**: Check the box to include numbers in the generated username.
+6. Click the "Generate" button to generate a new username.
+7. The generated username will be displayed in the entry field and automatically copied to the clipboard.
+
+## Code Explanation
+
+The main components of the code are:
+
+1. **`generate_username()`**: This function generates a random, pronounceable username based on the user's preferences for length, capital letters, and numbers.
+2. **`generate_and_copy()`**: This function is called when the "Generate" button is clicked. It generates a new username, displays it in the entry field, and copies it to the clipboard.
+3. **`center_window()`**: This function centers the application window on the screen and prevents the user from resizing it.
+4. **`set_default_username_length()`**: This function sets the default username length in the entry field.
+
+The application uses the `customtkinter` library to create the graphical user interface, including the entry field, buttons, and checkboxes. The `pyperclip` library is used to copy the generated username to the clipboard.
 
 ## Dependencies
 
-- Python 3
-- `pyperclip` library (for copying the generated username to the clipboard)
+- Python 3.x
+- `customtkinter` library
+- `pyperclip` library
 
-## How to Run
+You can install the required dependencies using pip:
 
-1. **Clone this repository** to your local machine.
-2. Open a terminal or command prompt in the repository folder.
-3. Execute the script using `python username_generator.py`.
+```
+pip install customtkinter pyperclip
+```
 
-Feel free to modify and enhance this script as needed!
+## Contribution
 
----
+If you have any suggestions or find any issues, feel free to create a new issue or submit a pull request on the [project's GitHub repository](https://github.com/your-username/username-generator).
