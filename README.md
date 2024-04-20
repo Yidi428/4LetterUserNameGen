@@ -14,11 +14,11 @@ This is a simple username generator application built using the `customtkinter` 
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/username-generator.git
+   git clone https://github.com/Yidi428/4LetterUserNameGen.git
    ```
 2. Navigate to the project directory:
    ```
-   cd username-generator
+   cd 4LetterUserNameGen
    ```
 3. Install the required dependencies:
    ```
@@ -57,3 +57,7 @@ You can install the required dependencies using pip:
 ```
 pip install customtkinter pyperclip
 ```
+
+## Contribution
+
+If you have any suggestions or find any issues, feel free to create a new issue or submit a pull request on the [project's GitHub repository](https://github.com/Yidi428/4LetterUserNameGen).
