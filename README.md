@@ -57,7 +57,3 @@ You can install the required dependencies using pip:
 ```
 pip install customtkinter pyperclip
 ```
-
-## Contribution
-
-If you have any suggestions or find any issues, feel free to create a new issue or submit a pull request on the [project's GitHub repository](https://github.com/your-username/username-generator).
